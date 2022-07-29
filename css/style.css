@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    margin: 50px 0px 0px 100px ;
+    /* 1 - son x - bo'yicha o'lchov */
+    /* 2 - son y - bo'yicha o'lchov */
+    /* 3 - son rangini xiralashish darajasi */
+    /* 1 - son soyasini tarqalish radiusi */
+    box-shadow: 30px 50px 50px 50px gray;
+}
+
+.title{
+    color: red;
+    margin: 200px 0px 0px 100px;
+    text-shadow: 50px 20px 5px black;
+}
+
+.paragraph{
+    color: black;
+    margin-top: 100px;
+}
+
+
+.paragraph:hover{
+    text-decoration: underline;
+}
+
+.container:hover{
+    background-color: darkblue;
+    transition: 0.9s;
+}
+
+
+/* button */
+
+
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 23px;
+    margin: 100px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #0c69c5;
+    cursor: pointer;
+
+}
+
+
+
+
+.btn:focus{
+    box-shadow: 0px 0px 0px 5px rgba(30, 143, 255, 0.601);
+}
+
+.demo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 100ms;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+}
+
+.demo:hover{
+    transition: 100ms;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 100px;
+}
+
+
+.link{
+    margin :100px;
+    margin-bottom: 1000px;
+
+}
+
+
+.link:visited{
+    color: gold;
+}
+
+
+li:first-child{
+    color:#fff;
+    font-size: 25px;
+    background-color: red;
+}
+
+li:nth-child(2){
+    color: #0c69c5;
+    font-size: 100px;
+}
